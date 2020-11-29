@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style/toDoList.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="banner-section">
+        <nav class="navigation-links">
+            <ul class="nav-container">
+                <li class="nav-items">
+                    <a href="#" class="nav-links">HOME</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-links">ABOUT US</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-links">SERVICES</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-links">CONTACT US</a>
+                </li>
+                <!-- <input type="text" placeholder="Search"> -->
+            </ul>
+        </nav>
+    </div>
+    <h1>To Do List</h1>
+    <div class="text-container">
+        Double click on the text to
+        <i class="fa fa-caret-right" aria-hidden="true"></i>
+        <i class="fa fa-trash-o" aria-hidden="true"> </i>
+        <br /> Click on the text if <i class="fa fa-caret-right" aria-hidden="true"></i>
+
+        <i class="fa fa-check" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+        <input type="text" id="inputField" />
+        <button id="addTodo">Add Task</button>
+        <div class="toDo" id="toDoContainer"></div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h4 class="footer-sub">@todolist2020</h4>
+            Mail us at <i class="fa fa-fw fa-envelope"></i> :<a href="#">todolist@xyz.com</a
+        >
+        <br />
+        Call us at <i class="fa fa-fw fa-phone"></i> :<a href="#"
+          >+91-983538767</a
+        >
+      </div>
+    </footer>
+  </body>
+  <script src="./src/main.js"></script>
+</html>

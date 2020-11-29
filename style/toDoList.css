@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #EF798A;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #613F75;
+}
+
+.text-container {
+    text-align: center;
+    font-size: 20px;
+    color: #F7A9A8;
+}
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: auto;
+    height: 46px;
+    border: 1px solid black;
+    /* outline: none; */
+    font-size: 25px;
+    vertical-align: middle;
+    /* padding-top: 10px; */
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#addTodo {
+    height: 50px;
+    width: auto;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#addTodo:hover {
+    background-color: #7D82B8;
+}
+
+.toDo {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: #E5C3D1;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    display: inline;
+    margin: 10px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    color: black;
+}
+
+footer {
+    margin-top: 180px;
+    text-align: center;
+    padding: 3px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-sub {
+    text-align: center;
+    /* text-decoration: none; */
+    color: white;
+}
