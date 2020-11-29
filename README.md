@@ -6,6 +6,8 @@ Indicating that the task will is compelted.
 If you want to delete the task just double click on the text(task).
 It will get deleted.
 
+https://kritikapoojari.github.io/ToDoList/.
+
 
 
 
